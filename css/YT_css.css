@@ -1,0 +1,201 @@
+body {
+    font-size: 14px
+}
+
+#top-nav {
+    height: 60px;
+    background-color: white;
+}
+
+
+#left-overflow {
+    overflow: hidden;
+}
+
+
+#left-overflow:hover {
+    overflow: scroll;
+}
+
+#main_Pic {
+    width: 40px;
+}
+
+#main-content {
+    margin-top: 60px;
+}
+
+#right-content {
+    padding: 30px 70px;
+}
+
+#YT {
+    height: 20px;
+}
+
+.video-frame {
+    width: 100%;
+    object-fit: cover;
+}
+
+.video-info-div {
+    width: 100%;
+}
+
+.small-icon {
+    width: 40px;
+}
+
+.Song {
+    height: 90px;
+    line-height: 20px;
+background-color: ;
+}
+
+.Song-info {
+    padding: 5px 0px;
+    overflow: hidden;
+}
+
+.video-visible {
+    position: absolute;
+    opacity: 0.9;
+    visibility: hidden;
+}
+
+.video:hover .video-visible,
+.video:hover .ellipsis {
+    visibility: visible;
+
+}
+
+.video:hover {
+    cursor: pointer;
+}
+
+.ellipsis {
+    visibility: hidden;
+}
+
+.menu_left i {
+    width: 30px;
+}
+
+.menu_left a {
+    text-decoration: none;
+}
+
+
+.menu_left div:hover {
+    background-color: rgb(233, 233, 233);
+}
+
+/* .menu_left div:hover i {
+    color: #d10000;
+} */
+
+
+
+.menu_left span {
+    margin-left: 24px;
+}
+
+.menu_left i,
+.menu_left-text {
+    padding: 12px;
+    margin-left: 15px;
+}
+
+
+
+.recommend {
+    width: 100%;
+}
+
+
+.fa-lg {
+    position: relative;
+
+}
+
+.fa-lg .hover-icon {
+    position: absolute;
+    top: 200%;
+    opacity: .8;
+    display: none;
+    left: 0%;
+
+
+}
+
+.hover-icon small {
+    white-space: nowrap;
+
+}
+
+
+.fa-lg:hover .hover-icon {
+    display: block;
+}
+
+#search-Bar{
+    display: none;
+ 
+}
+
+@media screen and (min-width: 1200px) {
+
+    #search-Bar{ display: none;
+    }
+}
+
+
+/* 小螢幕 */
+@media screen and (max-width: 1199px) {
+
+
+    .menu_left i {
+        display: block;
+        margin: auto;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .menu_left span {
+        text-align: center;
+        display: block;
+        margin: 0px;
+        font-size: 10px;
+        padding: 0px;
+        margin-top: 10px;
+    }
+
+    .menu_left div {
+        padding: 15px 0px;
+    }
+
+    .menu_left+hr {
+        display: none;
+
+
+    }
+
+    .menu_left_invisible {
+        display: none;
+    }
+
+
+    #left-overflow:hover {
+        overflow: hidden;
+    }
+
+    .video {
+        margin-bottom: 2vh;
+    }
+
+}
+
+.mid-hr {
+    margin: 30px 0px;
+    border: 2px rgb(228, 228, 228) solid;
+}
